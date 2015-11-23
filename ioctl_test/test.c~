@@ -25,7 +25,7 @@ int main()
 	ioctl(fd, 1,  &data);
 	printf("read ret : %s", data);
 
-	ioctl(fd, 2, &data);
+	ioctl(fd, 3, &data);
 	printf("write ret : %s", data);
 	
 

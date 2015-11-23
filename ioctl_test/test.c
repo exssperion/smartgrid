@@ -28,7 +28,7 @@ int main()
 	ioctl(fd, 3, &data);
 	printf("write ret : %s", data);
 	
-
+//test code
 	close(fd);
 	return 0;
 }
